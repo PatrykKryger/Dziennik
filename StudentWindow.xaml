@@ -1,0 +1,12 @@
+﻿<Window x:Class="Dziennik.StudentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Okno ucznia" Height="400" Width="600">
+    <Grid>
+        <!-- Etykieta wyświetlająca punkty ucznia -->
+        <TextBlock x:Name="PointsLabel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" FontSize="16"/>
+
+        <!-- DataGrid do wyświetlania ocen ucznia -->
+        <DataGrid x:Name="GradesDataGrid" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,10,10" Height="200" AutoGenerateColumns="True" />
+    </Grid>
+</Window>
